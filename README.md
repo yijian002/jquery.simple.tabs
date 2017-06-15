@@ -9,11 +9,11 @@ $('#some-element').simpletabs();
 // Some options
 $('#some-element').simpletabs({
 	tabs: '.tab',
-    contents: '.contents',
-    class_selected: 'selected',
-    event: 'click',
-    event_func: function() {
-	    // todo something...
+	contents: '.contents',
+	class_selected: 'selected',
+	event: 'click',
+	event_func: function() {
+		// todo something...
 	}
 });
 ```
