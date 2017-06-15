@@ -3,13 +3,13 @@ A very simple tabs plugin
 
 
 ### Code examples
-```
+``` javascript
 $('#some-element').simpletabs();
 
 // Some options
 $('#some-element').simpletabs({
-	tabs: '.tab',
-	contents: '.contents',
+	tabs: '.tabs >',
+	contents: '.contents >',
 	class_selected: 'selected',
 	event: 'click',
 	event_func: function() {

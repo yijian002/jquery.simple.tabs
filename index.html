@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title> Example </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <span class="selected">tab1</span><span>tab2</span><span>tab3</span><span>tab4</span>
+        </div>
+        <div class="contents">
+        	<div>contents 1....</div>
+	        <div>contents 2....</div>
+	        <div>contents 3....</div>
+	        <div>contents 4....</div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.simple.tabs.js"></script>
+<script type="text/javascript">
+$('.container').simpletabs();
+</script>

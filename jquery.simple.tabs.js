@@ -9,8 +9,8 @@
 
     $.fn.simpletabs = function(options) {
         var settings = {
-            tabs: '.tab',
-            contents: '.contents',
+            tabs: '.tabs >',
+            contents: '.contents >',
             class_selected: 'selected',
             event: 'click.tabs',
             event_func: $.noop
@@ -26,7 +26,7 @@
         }
 
         function bind() {
-            $container.off(p.event).on(p.event, p.tabs, function() {
+            $container.find(p.tabs).off(p.event).on(p.event, function() {
                 var $this = $(this),
                     idx = $this.index();
 
