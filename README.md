@@ -3,7 +3,7 @@ A very simple tabs plugin
 
 
 ### Code examples
-``` javascript
+``` js
 $('#some-element').simpletabs();
 
 // Some options
