@@ -8,12 +8,12 @@ $('#some-element').simpletabs();
 
 // Some options
 $('#some-element').simpletabs({
-	tabs: '.tabs >',
-	contents: '.contents >',
-	class_selected: 'selected',
-	event: 'click',
-	event_func: function() {
-		// todo something...
-	}
+    tabs: '.tabs >',
+    contents: '.contents >',
+    class_selected: 'selected',
+    event: 'click',
+    event_func: function() {
+        // todo something...
+    }
 });
 ```
