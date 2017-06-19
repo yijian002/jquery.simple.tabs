@@ -1,6 +1,7 @@
 /*
     jquery.simple.tabs.js
-    @author Vic https://github.com/yijian002
+    @author Vic 
+    https://github.com/yijian002/jquery.simple.tabs
 */
 
 (function($) {
