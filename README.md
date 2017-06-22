@@ -17,3 +17,6 @@ $('#some-element').simpletabs({
     }
 });
 ```
+
+### Demo
+index.html
