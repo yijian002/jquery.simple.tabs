@@ -38,7 +38,7 @@
             });
         }
 
-        function init(opts) {
+        function init() {
             $container = $(this);
             if (!$container.length) {
                 console.error('Not found the container.');
