@@ -1,0 +1,28 @@
+{
+  "name": "jquery.simple.tabs",
+  "version": "1.0.0",
+  "description": "A very simple tabs plugin",
+  "main": "jquery.simple.tabs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yijian002/jquery.simple.tabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yijian002/jquery.simple.tabs/issues"
+  },
+  "homepage": "https://github.com/yijian002/jquery.simple.tabs#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "html-loader": "^0.4.5",
+    "jquery": "^3.2.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
+  }
+}
