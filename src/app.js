@@ -1,0 +1,5 @@
+(function($) {
+	
+    $('.container').simpletabs();
+
+}(jQuery));

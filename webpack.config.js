@@ -1,8 +1,9 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/main.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -19,7 +20,7 @@ module.exports = {
             use: [{
                 loader: 'html-loader',
                 options: {
-                    minimize: true
+                    // minimize: true
                 }
             }]
         }]
@@ -27,8 +28,8 @@ module.exports = {
     plugins: [
 	    new HtmlWebpackPlugin({  // Also generate a test.html 
 	      filename: 'index.html',
-	      template: 'index.html',
-	      css: 'css/index.css'
-	    })
+	      template: 'index.html'
+	    }),
+        new ExtractTextPlugin('../css/index.css'),
 	]
 };
