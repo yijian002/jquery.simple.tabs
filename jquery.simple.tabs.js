@@ -27,14 +27,14 @@
         }
 
         function bind() {
-            $container.find(p.tabs).off(p.event).on(p.event, function() {
+            $container.find(p.tabs).off(p.event).on(p.event, function(e) {
                 var $this = $(this),
                     idx = $this.index();
 
                 $this.addClass(p.class_selected).siblings().removeClass(p.class_selected);
                 $contents.eq(idx).show().siblings().hide();
 
-                p.event_func();
+                p.event_func(e, idx);
             });
         }
 

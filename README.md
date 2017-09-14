@@ -1,5 +1,5 @@
 # jquery.simple.tabs
-A very simple tabs plugin
+A simple tabs plugin
 
 
 ### Code examples
@@ -12,7 +12,7 @@ $('#some-element').simpletabs({
     contents: '.contents >',
     class_selected: 'selected',
     event: 'click',
-    event_func: function() {
+    event_func: function(event, index) {
         // todo something...
     }
 });
